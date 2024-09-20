@@ -1,24 +1,25 @@
 # Navigate to your project folder
-cd /path/to/your/project
+# cd /path/to/your/project
 
 # Create a virtual environment
-python -m venv qr-env
+# python -m venv qr-env
 
 # Activate the virtual environment
 # On Windows
-qr-env\Scripts\activate
+# qr-env\Scripts\activate
 
 # On macOS/Linux
-source qr-env/bin/activate
+# source qr-env/bin/activate
 
 # Install the required packages
-pip install pyautogui opencv-python pyzbar
+# pip install pyautogui opencv-python pyzbar
 
 # Run your Python script
-python qr_code_reader.py
+# python qr_code_reader.py
 
 # Deactivate the virtual environment (optional)
-deactivate
+# deactivate
+
 
 
 import pyautogui
